@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content" tools:layout_editor_absoluteY="8dp"
+                tools:layout_editor_absoluteX="8dp" android:paddingLeft="10dp" android:paddingRight="10dp">
+
+
+            <TextView
+                    android:layout_width="388dp"
+                    android:layout_height="wrap_content"
+                    android:text="SMA N 1 RANDUBLATUNG"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:layout_marginTop="10dp"
+            />
+            <ImageView
+                    android:layout_width="388dp"
+                    android:layout_height="357dp"
+                    app:srcCompat="@drawable/logo"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"/>
+            <Button
+                    android:text="Tentang Sekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button"/>
+            <Button
+                    android:text="Foto Kegiatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button2"/>
+            <Button
+                    android:text="Kontak "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button3"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
